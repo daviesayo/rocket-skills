@@ -95,22 +95,23 @@ No changes to `package.json` are needed. The postinstall script copies every dir
 
 ### Publishing to npm
 
-**One-time:** Create an account at [npmjs.com](https://www.npmjs.com/signup) if needed, then from the repo run:
+Publishing is automated via GitHub Actions. When you push a version tag (e.g. `v1.0.2`), the workflow publishes to npm.
 
-```bash
-npm login
-```
+**One-time setup:**
+
+1. Create an [npm Automation token](https://www.npmjs.com/settings/~/tokens) with “Automation” type and “Publish” permission.
+2. In your GitHub repo: **Settings → Secrets and variables → Actions → New repository secret**
+3. Name: `NPM_TOKEN`, Value: paste the token.
 
 **Each release:**
 
-1. Bump the version (e.g. `npm version patch`).
-2. Publish:
+1. Bump the version and create a tag:
    ```bash
-   npm publish
+   npm version patch
    ```
-3. Push and push tags:
+2. Push code and tags:
    ```bash
-   git push && git push --tags
+   git push --follow-tags
    ```
 
-Users get updates with `npm install @daviesayo/rocket-skills` or `npm update @daviesayo/rocket-skills`. This package is scoped; publish with `npm publish --access public`.
+The workflow runs on tag push and publishes to npm. Users get updates with `npm install @daviesayo/rocket-skills` or `npm update @daviesayo/rocket-skills`.
