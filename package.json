@@ -1,6 +1,6 @@
 {
   "name": "@daviesayo/rocket-skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Agent skills for Cursor/Agents — installs into ~/.agents/skills",
   "bin": {
     "rocket-skills": "scripts/postinstall.js"
