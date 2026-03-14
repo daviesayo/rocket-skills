@@ -46,7 +46,7 @@ The `skill/` folder is the unit of deployment. Copy its entire contents into you
 
 | Skill | Description |
 |-------|-------------|
-| [running-consultant-engagements](skills/running-consultant-engagements/README.md) | Orchestrates a structured consulting engagement workflow — from raw discovery inputs to 7 cross-referenced artifacts, generated one at a time with review gates between each step |
+| [running-consultant-engagements](running-consultant-engagements/) | Orchestrates a structured consulting engagement workflow — from raw discovery inputs to 7 cross-referenced artifacts, generated one at a time with review gates between each step |
 
 ## Adding a new skill
 
