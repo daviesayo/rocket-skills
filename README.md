@@ -2,7 +2,7 @@
 
 A repository of custom agent skills following the [Agent Skills](https://agentskills.io) open format. Each skill packages specialised procedural knowledge — structured instructions, templates, and domain context — that any compatible LLM agent can load on demand.
 
-Skills are LLM-agnostic and agent-agnostic. The same skill works across Claude, GPT, Gemini, and any other agent that supports the [agentskills.io](https://agentskills.io) format (Cursor, Claude Code, Codex, and others).
+Skills are LLM-agnostic and agent-agnostic. The same skill works across Claude, GPT, Gemini, and any other agent that supports the Agent Skills format (Cursor, Claude Code, Codex, and others).
 
 ## What is a skill?
 
@@ -14,7 +14,7 @@ See the [Agent Skills specification](https://agentskills.io/specification.md) fo
 
 ## How the skills in this repo were built
 
-Skills here were authored using the TDD-for-documentation methodology from [obra/superpowers](https://github.com/obra/superpowers), specifically the [`writing-skills`](https://github.com/obra/superpowers/tree/main/skills/writing-skills) skill.
+Skills here were authored using the TDD-for-documentation methodology from [Superpowers](https://github.com/obra/superpowers), specifically the [`writing-skills`](https://github.com/obra/superpowers/tree/main/skills/writing-skills) skill.
 
 The process treats skill creation like test-driven development:
 
