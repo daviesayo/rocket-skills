@@ -9,13 +9,13 @@ Skills are LLM-agnostic and agent-agnostic. The same skill works across Claude, 
 Install this package to copy all skills into your local agent skills directory:
 
 ```bash
-npm install rocket-skills
+npm install @daviesayo/rocket-skills
 ```
 
 Or install without adding it to a project:
 
 ```bash
-npx rocket-skills@latest
+npx @daviesayo/rocket-skills@latest
 ```
 
 ### What gets installed where
@@ -113,4 +113,4 @@ npm login
    git push && git push --tags
    ```
 
-Users get updates with `npm install rocket-skills` or `npm update rocket-skills`. To publish as a scoped package (e.g. `@yourusername/rocket-skills`), set `"name": "@yourusername/rocket-skills"` in `package.json` and run `npm publish --access public`.
+Users get updates with `npm install @daviesayo/rocket-skills` or `npm update @daviesayo/rocket-skills`. This package is scoped; publish with `npm publish --access public`.
