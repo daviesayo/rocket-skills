@@ -1,0 +1,27 @@
+{
+  "name": "@daviesayo/rocket-skills",
+  "version": "1.0.0",
+  "description": "Agent skills for Cursor/Agents — installs into ~/.agents/skills",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "files": [
+    "scripts",
+    "skills",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daviesayo/rocket-skills.git"
+  },
+  "keywords": [
+    "cursor",
+    "agents",
+    "skills",
+    "ai"
+  ],
+  "license": "MIT"
+}

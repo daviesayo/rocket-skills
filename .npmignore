@@ -1,0 +1,6 @@
+.git
+.cursor
+.cursorignore
+.DS_Store
+*.log
+node_modules
