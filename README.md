@@ -79,6 +79,7 @@ The `skills/<skill-name>/` folder is the unit of deployment. When users install 
 | Skill | Description |
 |-------|-------------|
 | [running-consultant-engagements](skills/running-consultant-engagements/) | Orchestrates a structured consulting engagement workflow — from raw discovery inputs to 7 cross-referenced artifacts, generated one at a time with review gates between each step |
+| [less-is-more](skills/less-is-more/) | Makes every interface element, line of copy, animation, and feature earn its place, after Jakub Krehel's essay "Less is more, more or less" |
 
 ---
 
